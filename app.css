@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-responsive {
+  border-radius: 11px;
+  border: 2px solid black;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  overflow: hidden;
+}
+.card-responsive img {
+  object-fit: cover;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+ 
+}
