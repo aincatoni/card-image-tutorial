@@ -5,15 +5,18 @@
 }
 
 .card-responsive {
-  border-radius: 11px;
-  border: 2px solid black;
-  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  /* border-radius: 11px; */
+  /* border: 2px solid black; */
   overflow: hidden;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1)
 }
-.card-responsive img {
+.card-responsive:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* .card-responsive img {
   object-fit: cover;
   max-height: 100%;
   max-width: 100%;
-  width: auto;
+  width: auto; 
  
-}
+} */
